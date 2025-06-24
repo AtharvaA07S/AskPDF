@@ -1,0 +1,1 @@
+docker run -e BUCKET_NAME=myaskpdf -v ~/.aws:/root/.aws -p 8083:8083 -it pdf-reader-admin
